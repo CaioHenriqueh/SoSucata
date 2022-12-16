@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 483px) {
+  .lenght {
+    height: 70px;
+  }
+  /*body {
+      background: #212529;
+  }*/
+  .logoSucata {
+    margin-top: -4px;
+    margin-bottom: 3px;
+    border-radius: 100%;
+    -webkit-animation: animateLogo 0.8s ease-out infinite;
+            animation: animateLogo 0.8s ease-out infinite;
+  }
+  @-webkit-keyframes animateLogo {
+    from {
+      filter: drop-shadow(0px 0px 3px yellow);
+    }
+    to {
+      filter: drop-shadow(0px 0px 5px yellow);
+    }
+  }
+  @keyframes animateLogo {
+    from {
+      filter: drop-shadow(0px 0px 3px yellow);
+    }
+    to {
+      filter: drop-shadow(0px 0px 5px yellow);
+    }
+  }
+  .conteiner {
+    display: none;
+  }
+  .list-mobile {
+    font-size: 30px;
+    border-bottom: 2px solid yellow;
+    margin: 3px 0;
+    width: 100%;
+  }
+  .list-mobile #a, .list-mobile a {
+    margin-left: 2px;
+  }
+}
+@media screen and (min-width: 483px) {
+  .lenght {
+    height: 67px;
+  }
+  .logoSucata {
+    margin-top: -5px;
+    border-radius: 100%;
+    -webkit-animation: animateLogo 0.8s ease-out infinite;
+            animation: animateLogo 0.8s ease-out infinite;
+  }
+  @-webkit-keyframes animateLogo {
+    from {
+      filter: drop-shadow(0px 0px 3px yellow);
+    }
+    to {
+      filter: drop-shadow(0px 0px 5px yellow);
+    }
+  }
+  @keyframes animateLogo {
+    from {
+      filter: drop-shadow(0px 0px 3px yellow);
+    }
+    to {
+      filter: drop-shadow(0px 0px 5px yellow);
+    }
+  }
+  .navbar {
+    display: none;
+  }
+  .conteiner {
+    display: flex;
+    justify-content: space-between;
+    background: #212529;
+    align-items: center;
+    height: 78px;
+  }
+  .conteiner img {
+    width: 65px;
+    margin: 10px;
+  }
+  .conteiner .list-nav {
+    margin-right: 80px;
+  }
+  .conteiner .list-nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #212529;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 100% 50%;
+    background: rgb(255, 255, 255);
+  }
+}/*# sourceMappingURL=main.css.map */

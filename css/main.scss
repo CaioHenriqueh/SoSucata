@@ -1,0 +1,46 @@
+@import "mobile";    
+@media  screen and (min-width:483px) {
+    .lenght {
+        height: 67px;
+    }
+    .logoSucata {
+        margin-top: -5px;
+        border-radius: 100%;
+        animation: animateLogo .8s ease-out infinite;
+    }   
+    @keyframes animateLogo {
+        from {
+            filter: drop-shadow(0px 0px 3px yellow);
+        }
+        to {
+            filter: drop-shadow(0px 0px 5px yellow);
+        }
+    }
+    .navbar{
+        display: none;
+    }
+    .conteiner {
+        display: flex;
+        justify-content: space-between;
+        background: #212529;
+        align-items: center;
+        height: 78px;
+        img {
+            width: 65px;
+            margin: 10px;
+        }
+        .list-nav {
+            margin-right: 80px;
+            a {
+                text-decoration: none; 
+                margin-right: 20px;
+                color:#212529 ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                padding: 9px;
+                border-radius: 100% 50%;
+                background: rgb(255, 255, 255);
+            }
+        }
+    }
+}
